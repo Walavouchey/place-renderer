@@ -87,26 +87,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bad-apple-place-renders"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "chrono",
- "csv",
- "flate2",
- "futures",
- "indicatif",
- "itertools 0.11.0",
- "json",
- "num_enum",
- "rayon",
- "serde",
- "sqlx",
- "subprocess",
- "tokio",
-]
-
-[[package]]
 name = "base64"
 version = "0.21.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1068,6 +1048,26 @@ name = "pkg-config"
 version = "0.3.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "26072860ba924cbfa98ea39c8c19b4dd6a4a25423dbdf219c1eca91aa0cf6964"
+
+[[package]]
+name = "place-render"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "chrono",
+ "csv",
+ "flate2",
+ "futures",
+ "indicatif",
+ "itertools 0.11.0",
+ "json",
+ "num_enum",
+ "rayon",
+ "serde",
+ "sqlx",
+ "subprocess",
+ "tokio",
+]
 
 [[package]]
 name = "portable-atomic"
